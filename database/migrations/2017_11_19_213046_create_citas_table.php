@@ -14,7 +14,10 @@ class CreateCitasTable extends Migration
     {
         Schema::create('citas', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+            $table->nombre(string);
+            asdasfasfas
+            asfasfasf
+            asdasdasda
         });
     }
 

@@ -16,10 +16,12 @@ Route::get('/', function () {
 });
 
 Route::get('/hola', function () {
-    return view('usuario/h');
+    return view('hola');
 });
 
 
 Route::auth();
+asfasfasfasfasfsdghzrtsjkdufiloñ f
+atrhefs
 
 Route::get('/home', 'HomeController@index');
